@@ -1,6 +1,6 @@
 # Skill Builder Harness
 
-Test-driven harness for iteratively optimizing Claude agent skill files.
+Test-driven harness for iteratively optimizing AI agent skill files.
 
 ## What it does
 
@@ -38,7 +38,7 @@ AGENTS.md                 # Full agent instructions (the harness itself)
 
 ## Usage
 
-Point a Claude Code agent at this repo and tell it to run the harness. The agent reads `AGENTS.md` and orchestrates the full loop autonomously.
+Point an AI agent at this repo and tell it to run the harness. The agent reads `AGENTS.md` and orchestrates the full loop autonomously.
 
 To adapt for a different skill:
 1. Replace `spec/skill-criteria.md` with your criteria (boolean questions only)
