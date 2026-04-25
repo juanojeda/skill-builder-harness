@@ -1,0 +1,16 @@
+# Output (generated, not source)
+output/*
+!output/research-log.md
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+.env.local
