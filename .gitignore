@@ -1,6 +1,5 @@
 # Output (generated, not source)
-output/*
-!output/research-log.md
+**/output/candidate-skill.md
 
 # macOS
 .DS_Store

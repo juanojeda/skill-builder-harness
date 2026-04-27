@@ -14,11 +14,11 @@ SKILL_DIR=/path/to/my-skill
 Before any other step, resolve all paths from `SKILL_DIR`:
 
 ```
-criteria  = {SKILL_DIR}/spec/skill-criteria.md
-scenarios = {SKILL_DIR}/spec/scenarios/
-best      = {SKILL_DIR}/output/best-skill.md
-candidate = {SKILL_DIR}/output/candidate-skill.md
-log       = {SKILL_DIR}/output/research-log.md
+criteria  = {SKILL_DIR}/skill-criteria.md
+scenarios = {SKILL_DIR}/scenarios/
+best      = {SKILL_DIR}/best-skill.md
+candidate = {SKILL_DIR}/candidate-skill.md
+log       = {SKILL_DIR}/research-log.md
 ```
 
 Use only these resolved absolute paths in all steps below. Pass resolved paths to sub-agents — do not pass `SKILL_DIR` itself.
@@ -58,4 +58,6 @@ Use only these resolved absolute paths in all steps below. Pass resolved paths t
 
    Then for each criteria, report with a table:
 
-   {the criteria question} | passed scenario N | (repeat for all scenarios) |
+   | Criteria | Scenario 1 | Scenario 2 | (repeat for all scenarios) |
+   | --- | --- | --- | --- |
+   | {the criteria question} | true/false | true/false | (repeat for all scenarios) |
